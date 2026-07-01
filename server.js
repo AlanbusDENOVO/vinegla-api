@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const assinantes = ["josep", "vinegla_user"]; // Adicione quem quiser
+const assinantes = ["josep", "vinegla_user", "Alanbus654"]; // Adicione quem quiser
 
 app.get("/api/check", (req, res) => {
   const user = req.query.user;
